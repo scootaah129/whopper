@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BurgerKing</title>
+<link rel="stylesheet" href="style.css" />
+
+<script src="js/lib/jquery-1.6.4.min.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $.backstretch("images/bg.png");
+	});
+    </script>
+    
+    <script>
+    function vibrate()
+    {
+    	bridge.messagehandler.send({messageName: "vibrate"}, null);
+    }
+    </script>
+
+</head>
+
+<body>
+	<div id="container">
+	
+		<div id="header_container" onclick="vibrate()">
+		<img src="images/logo.png" height="100%"/>
+		</div>
+	   	
+	   	<div id="content" >
+	   	
+	   	<div id="producten">
+			<a href="producten.html" ><img src="images/home/producten.png" height="100%"/></a> 
+		</div>
+		
+		<div id="bkfinder">
+			<a href="bkfinder.html" ><img src="images/home/bkfinder.png" /></a>
+		</div>
+		
+		<div id="specials">
+			<a href="specials.html" ><img src="images/home/specials.png"  /></a>
+		</div>
+		
+		<div id="contact1">
+			<a href="contact.html" ><img src="images/home/contact1.png" /></a>
+		</div>
+		
+	   	</div>
+	   	
+	   	<div id="footer">
+	   	
+	   	<div id="contact2">
+			<img src="images/home/contact2.png" />
+		</div>
+	   	</div>
+	   	
+	</div>
+</body>
+</html>
+   		

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BurgerKing</title>
+<link rel="stylesheet" href="style.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/lib/jquery-1.6.4.min.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $.backstretch("images/bg2.png");
+	});
+    </script>
+    
+    
+    <script type="text/javascript">
+
+	
+	$.get("http://www.schuttertransport.nl/backend.php", function(data){ 
+
+		
+		var gewicht = $('span#Gewichtbreakfastburger', data).html();
+		var kilocalorien = $('span#Kilocalorieenbreakfastburger', data).html();
+		var koolhydraat = $('span#Koolhydratenbreakfastburger', data).html();
+		var vetten = $('span#Vettenbreakfastburger', data).html();
+		var suiker = $('span#Suikerbreakfastburger', data).html();
+		var eiwitten = $('span#Eiwittenbreakfastburger', data).html();
+		
+		//document.formulier.tekstvak.value = test;
+		document.getElementById('gewichtje').value = gewicht;
+		document.getElementById('kilocalorientje').value = kilocalorien;
+		document.getElementById('koolhydraatje').value = koolhydraat;
+		document.getElementById('vetje').value = vetten;
+		document.getElementById('suikertje').value = suiker;
+		document.getElementById('eiwitje').value = eiwitten;
+
+	  });
+		</script>
+
+</head>
+
+<body>
+	<div id="container">
+	   	<div id="header_container" >
+
+	   		<img src="images/logo.png" height="100%"/>
+	   	
+	   	</div>
+	   	
+	   	<div id="content">
+	   	<div id="textbox">
+		<h2>Waarom zou je pas ‘s middags of ‘s avonds naar de Burger King® gaan als je een ochtendmens bent? Speciaal voor jou heeft Burger King® de Breakfast Burger. Een heerlijke ontbijthamburger met Flame Grilled Beef, knapperige bacon, ei, sla, tomaat, salademayonaise waar je toch de hele ochtend mee uit de voeten kunt. Zet je wekker voortaan voor Burger King®!</h2>
+	   	</div>
+	   	
+	   	<div id="imagebox">
+	   		   <img src="images/breakfast_menu/breakfastburger.png" />
+	   	</div>
+
+	   	<div id="voedingswaardebox">
+		<div id="gewicht" ><form name="formulier1" class="transparant"><h2><input type="text" id="gewichtje" name="tekstvakgewicht" class="transparant"></h2></form></div>
+		
+		<div id="kilocalorien"><form name="formulier2" class="transparant"><h2><input type="text" id="kilocalorientje" name="tekstvakgewicht" class="transparant"></h2></form></div>
+		
+		<div id="koolhydraten"><form name="formulier3" class="transparant"><h2><input type="text" id="koolhydraatje" name="tekstvakkoolhydraat" class="transparant"></h2></form></div>
+		
+		<div id="vetten" ><form name="formulier4" class="transparant"><h2><input type="text" id="vetje" name="tekstvakvet" class="transparant"></h2></form></div>
+		
+		<div id="suiker" ><form name="formulier5" class="transparant"><h2><input type="text" id="suikertje" name="tekstvaksuiker" class="transparant"></h2></form></div>
+		
+		<div id="eiwitten" ><form name="formulier6" class="transparant"><h2><input type="text" id="eiwitje" name="tekstvakeiwit" class="transparant"></h2></form></div>
+		
+
+		</div>
+	   	
+	   	</div> <!--  voedingswaardebox -->
+	   	
+	   	</div> <!--  content -->
+	   	
+	   	<div id="footer">
+	   	
+	   	<div id="backbutton" >
+			<a href="breakfast.html" ><img src="images/home/backbutton.png" height="50%"/></a>
+		</div>
+	   	
+	</div>
+   		
+
+
+</body>
+</html>

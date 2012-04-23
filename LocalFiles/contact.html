@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BurgerKing</title>
+<link rel="stylesheet" href="style.css" />
+
+<script src="js/lib/jquery-1.6.4.min.js"></script>
+	<script src="js/jquery.backstretch.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $.backstretch("images/bg.png");
+	});
+    </script>
+    
+    <script>
+    function vibrate()
+    {
+    	bridge.messagehandler.send({messageName: "vibrate"}, null);
+    }
+    </script>
+
+</head>
+
+<body>
+	<div id="container">
+	
+		<div id="header_container">
+		<img src="images/logo.png" height="100%"/>
+		</div>
+	   	
+	   	<div id="content" >
+		<h2>
+		<p>App gemaakt door groep8 van Ipmedt4 project van Hogeschool Leiden</p>
+		
+		<p>Michael Schutter<br />
+		Jens Brokaar<br />
+		Lars Noorlander<br />
+		Dirk Guijt
+		</p></h2>
+		
+	   	</div>
+	   	
+	   	<div id="footer">
+	   	
+	   	<div id="backbutton">
+			<a href="index.html" ><img src="images/home/backbutton.png" /></a>
+		</div>
+	   	
+	   	</div>
+	   	
+	</div>
+</body>
+</html>
+   		

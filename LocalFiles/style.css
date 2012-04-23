@@ -1,0 +1,658 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* Main home page */
+  body
+{ 
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.transparant
+{
+	background-color: transparent;
+	border: none;
+	font-color: #fff;
+	font-size: 6pt;
+}
+
+a:LINK
+{
+	none;
+}
+
+a
+{
+	none;
+}
+
+/* header-font */
+h1
+{
+	color:#FFF;
+	padding-right: 20px;
+}
+
+h2
+{
+	color: #fff;
+	font-size: 6pt;
+}
+
+#container
+{
+	height: 100%;
+	width: 100%;
+}
+
+#header_container 
+{
+	height: 22%;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+}
+
+
+#header_container img
+{
+	max-width:150px;
+    max-height:160px;
+    padding-left: 3%;
+}
+
+#content
+{
+	top: 22%;
+	position: fixed;
+	width: 100%;
+	height: 65%;
+	
+}
+
+#backbutton
+{
+	float: left;
+	height: 30%;
+	width: 30%;
+	padding-left: 5%;
+	
+}
+
+#backbutton img
+{
+	height: 100%;
+}
+
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	height: 15%;
+	width: 100%;
+	z-index: 999;
+}
+
+/* homepage */
+
+#producten
+{
+	top: 25%;
+	height: 30%;
+	width: 40%;
+	float: left;
+	padding-left: 5%;
+
+	font-size: 2.5em;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+}
+
+#producten img
+{
+	height: 100%;
+}
+
+#bkfinder
+{
+	position: fixed;
+	top: 35%;
+	height: 22%;
+	width: 45%;
+	float: left;
+	padding-left: 40%;
+	z-index: 105;
+}
+
+#bkfinder img
+{
+	height: 100%;
+	
+}
+
+#specials
+{
+	position: fixed;
+	top: 60%;
+	height: 20%;
+	width: 30%;
+	float: left;
+	padding-left: 5%;
+}
+
+#specials img
+{
+	height : 75%;
+}
+
+#contact1
+{
+
+	position: fixed;
+	top: 77%;
+	height: 8%;
+	width: 30%;
+	float: left;
+	padding-left: 50%;
+	z-index: 105;
+}
+
+#contact1 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+#contact2
+{
+
+	position: fixed;
+	top: 85%;
+	height: 9%;
+	width: 30%;
+	float: left;
+	padding-left: 50%;
+	z-index: 105;
+}
+
+#contact2 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+/* producten home page */
+	
+#burgers
+{
+	position: fixed;
+	top: 22%;
+	height: 20%;
+	width: 35%;
+	float: left;
+	padding-left: 5%;
+}
+
+#burgers img
+{
+	height: 80%;
+}
+
+#snacks
+{
+	position: fixed;
+	top: 27%;
+	height: 20%;
+	width: 33%;
+	float: left;
+	padding-left: 45%;
+}
+
+#snacks img
+{
+	height: 100%;
+}
+
+#drinks
+{
+	position: fixed;
+	top: 42%;
+	height: 20%;
+	width: 35%;
+	float: left;
+	padding-left: 5%;
+}
+
+#drinks img
+{
+	height: 100%;
+}
+
+#breakfast
+{
+	position: fixed;
+	top: 50%;
+	height: 20%;
+	width: 35%;
+	float: left;
+	padding-left: 50%;
+}
+
+#breakfast img
+{
+	height: 80%;
+}
+
+#dessert
+{
+	position: fixed;
+	top: 63%;
+	height: 20%;
+	width: 35%;
+	float: left;
+	padding-left: 5%;
+}
+
+#dessert img
+{
+	height: 100%;
+}
+
+/* burgers pagina menu */
+
+#whopper
+{
+	position: fixed;
+	top: 22%;
+	height: 23%;
+	width: 30%;
+	float: left;
+	padding-left: 5%;
+}
+
+#whopper img
+{
+	height: 80%;
+}
+
+#bigking
+{
+	position: fixed;
+	top: 27%;
+	height: 22%;
+	width: 30%;
+	float: left;
+	padding-left: 50%;
+}
+
+#bigking img
+{
+	height: 100%;
+}
+
+#longchicken
+{
+	position: fixed;
+	top: 48%;
+	height: 18%;
+	width: 30%;
+	float: left;
+	padding-left: 2%;
+}
+
+#longchicken img
+{
+	height: 90%;
+}
+
+#steakhouse
+{
+	position: fixed;
+	top: 58%;
+	height: 23%;
+	width: 32%;
+	float: left;
+	padding-left: 45%;
+}
+
+#steakhouse img
+{
+	height: 100%;
+}
+
+/* snack pagina menu */
+
+#twisterfries
+{
+	position: fixed;
+	top: 22%;
+	height: 23%;
+	width: 30%;
+	float: left;
+	padding-left: 5%;
+}
+
+#twisterfries img
+{
+	height: 80%;
+}
+
+#kingnuggets
+{
+	position: fixed;
+	top: 27%;
+	height: 22%;
+	width: 30%;
+	float: left;
+	padding-left: 45%;
+}
+
+#kingnuggets img
+{
+	height: 60%;
+}
+
+#onionrings
+{
+	position: fixed;
+	top: 48%;
+	height: 18%;
+	width: 30%;
+	float: left;
+	padding-left: 2%;
+}
+
+#onionrings img
+{
+	height: 80%;
+}
+
+#kingwings
+{
+	position: fixed;
+	top: 58%;
+	height: 27%;
+	width: 35%;
+	float: left;
+	padding-left: 45%;
+}
+
+#kingwings img
+{
+	height: 60%;
+}
+
+/* breakfast pagina menu */
+
+#breakfastburger
+{
+	position: fixed;
+	top: 22%;
+	height: 23%;
+	width: 30%;
+	float: left;
+	padding-left: 5%;
+}
+
+#breakfastburger img
+{
+	height: 80%;
+}
+
+#donut
+{
+	position: fixed;
+	top: 27%;
+	height: 27%;
+	width: 35%;
+	float: left;
+	padding-left: 45%;
+}
+
+#donut img
+{
+	height: 100%;
+}
+
+#toastie
+{
+	position: fixed;
+	top: 48%;
+	height: 18%;
+	width: 30%;
+	float: left;
+	padding-left: 2%;
+}
+
+#toastie img
+{
+	height: 80%;
+}
+
+#breakfastwrap
+{
+	position: fixed;
+	top: 58%;
+	height: 27%;
+	width: 35%;
+	float: left;
+	padding-left: 45%;
+}
+
+#breakfastwrap img
+{
+	height: 100%;
+}
+
+/* drinks pagina menu */
+
+#cocacola
+{
+	position: fixed;
+	top: 22%;
+	height: 23%;
+	width: 30%;
+	float: left;
+	padding-left: 5%;
+}
+
+#cocacola img
+{
+	height: 80%;
+}
+
+#cocacolalight
+{
+	position: fixed;
+	top: 27%;
+	height: 22%;
+	width: 30%;
+	float: left;
+	padding-left: 50%;
+}
+
+#cocacolalight img
+{
+	height: 100%;
+}
+
+#fanta
+{
+	position: fixed;
+	top: 48%;
+	height: 30%;
+	width: 30%;
+	float: left;
+	padding-left: 2%;
+}
+
+#fanta img
+{
+	height: 80%;
+}
+
+#sprite
+{
+	position: fixed;
+	top: 58%;
+	height: 25%;
+	width: 35%;
+	float: left;
+	padding-left: 55%;
+}
+
+#sprite img
+{
+	height: 80%;
+}
+
+/* dessert pagina menu */
+
+#chococookies
+{
+	position: fixed;
+	top: 22%;
+	height: 23%;
+	width: 25%;
+	float: left;
+	padding-left: 5%;
+}
+
+#chococookies img
+{
+	height: 85%;
+}
+
+#strawberrycrunch
+{
+	position: fixed;
+	top: 27%;
+	height: 22%;
+	width: 25%;
+	float: left;
+	padding-left: 50%;
+}
+
+#strawberrycrunch img
+{
+	height: 85%;
+}
+
+#icecone
+{
+	position: fixed;
+	top: 48%;
+	height: 25%;
+	width: 30%;
+	float: left;
+	padding-left: 2%;
+}
+
+#icecone img
+{
+	height: 80%;
+}
+
+#hotbrownie
+{
+	position: fixed;
+	top: 58%;
+	height: 25%;
+	width: 30%;
+	float: left;
+	padding-left: 45%;
+}
+
+#hotbrownie img
+{
+	height: 90%;
+}
+	
+	
+/* food pages */
+
+#textbox
+{
+	width: 90%;
+	height: 30%;
+	position: fixed;
+	float: left;
+	padding-left: 5%;
+}
+
+#imagebox
+{
+	position: fixed;
+	top: 39%;
+	height: 40%;
+	width: 80%;
+	float: left;
+	padding-left: 5%;
+}
+
+#imagebox img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+}
+
+
+#voedingswaardebox
+{
+	position: fixed;
+	height: 2%;
+	float: left;
+	padding-left: 8%;
+	width: 93%;
+	bottom: 21%;
+}
+
+#gewicht
+{
+	display: inline-block;
+	width: 16%;
+	
+}
+
+#kilocalorien
+{
+	display: inline-block;
+	width: 17%;
+	
+}
+
+#koolhydraten
+{
+	display: inline-block;
+	width: 16%;
+	
+}
+
+#vetten
+{
+	display: inline-block;
+	width: 16%;
+	
+}
+
+#suiker
+{
+	display: inline-block;
+	width: 15%;
+	
+}
+
+#eiwitten
+{
+	display: inline-block;
+	width: 8%;
+	
+}
