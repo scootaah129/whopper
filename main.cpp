@@ -10,6 +10,7 @@
 #include <Wormhole/FileUtil.h>
 #include <Wormhole/WebViewMessage.h>
 
+
 // Namespaces we want to access.
 using namespace MAUtil; // Class Moblet
 using namespace NativeUI; // WebView widget.
@@ -24,6 +25,8 @@ class MyMoblet : public WebAppMoblet
 public:
 	MyMoblet()
 	{
+
+
 
 		// Enable message sending from JavaScript to C++.
 		enableWebViewMessages();
@@ -51,7 +54,25 @@ public:
 	void handleWebViewMessage(WebView* webView, MAHandle urlData)
 	{
 
+		///Connecter* connectie = new Connecter();
+		// Create message object. This parses the message.
+
+
+
+
+		WebViewMessage message(webView, urlData);
+
+		if (message.is("update"))
+		{
+
+		}
+		// Tell the WebView that we have processed the message, so that
+		// it can send the next one.
+		callJS("bridge.messagehandler.processedMessage()");
 	}
+
+
+};
 
 /**
  * Main function that is called when the program starts.
